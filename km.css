@@ -1,0 +1,41 @@
+body{
+background-image: url(https://wallpapercave.com/wp/wp8811284.jpg);
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+}
+
+
+.principal
+{
+    width: 350px;
+  height: 400px;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 3px 3px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+.principal p{
+    font-size: 20px;
+    margin: 10px;
+    color: rgb(240, 213, 127);
+}
+
+
+.principal button{ 
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+} 
+
+.principal button:hover{
+background: rgb(214, 209, 209);
+}
