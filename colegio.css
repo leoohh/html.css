@@ -1,0 +1,59 @@
+body{
+   
+    height: 100vh;
+    background: linear-gradient(rgb(248, 246, 246) , rgb(121, 184, 235));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+
+
+
+
+
+
+.principal{
+    
+    width: 450px;
+  height: 500px;
+  background-color: rgb(162, 219, 252);
+  border-radius: 20px;
+  box-shadow: 3px 3px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+    
+}
+
+.principal p{
+  font-size: 20px;
+  margin: 5px;
+}
+
+.principal input{
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;   
+}
+
+.principal input:focus{
+    background: rgb(247, 239, 239);
+}
+
+.principal button{
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    margin: 40px;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+} 
+
+.principal button:hover{
+background: rgb(247, 239, 239);
+}
